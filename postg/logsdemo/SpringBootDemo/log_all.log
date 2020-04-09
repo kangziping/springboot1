@@ -1,0 +1,404 @@
+===2020-04-03 16:38:08.294 DEBUG org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator Line:89  - Loaded expression factory via original TCCL
+===2020-04-03 16:38:08.299 DEBUG org.hibernate.validator.internal.engine.ValidatorFactoryImpl Line:578 - HV000234: Using org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator as ValidatorFactory-scoped message interpolator.
+===2020-04-03 16:38:08.299 DEBUG org.hibernate.validator.internal.engine.ValidatorFactoryImpl Line:579 - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+===2020-04-03 16:38:08.299 DEBUG org.hibernate.validator.internal.engine.ValidatorFactoryImpl Line:580 - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+===2020-04-03 16:38:08.300 DEBUG org.hibernate.validator.internal.engine.ValidatorFactoryImpl Line:581 - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+===2020-04-03 16:38:08.300 DEBUG org.hibernate.validator.internal.engine.ValidatorFactoryImpl Line:582 - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+===2020-04-03 16:38:08.337 INFO  com.fh.postg.PostgApplication Line:55  - Starting PostgApplication on DESKTOP-190729 with PID 10988 (E:\文档下载\spring-boot-demo-master\spring-boot-demo-master\postg\target\classes started by Administrator in E:\文档下载\spring-boot-demo-master\spring-boot-demo-master\postg)
+===2020-04-03 16:38:08.338 DEBUG com.fh.postg.PostgApplication Line:56  - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+===2020-04-03 16:38:08.338 INFO  com.fh.postg.PostgApplication Line:651 - No active profile set, falling back to default profiles: default
+===2020-04-03 16:38:08.655 DEBUG org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration Line:224 - Searching for mappers annotated with @Mapper
+===2020-04-03 16:38:08.655 DEBUG org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration Line:228 - Using auto-configuration base package 'com.fh.postg'
+===2020-04-03 16:38:08.707 DEBUG org.apache.ibatis.logging.LogFactory Line:105 - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+===2020-04-03 16:38:08.709 DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner Line:435 - Identified candidate component class: file [E:\文档下载\spring-boot-demo-master\spring-boot-demo-master\postg\target\classes\com\fh\postg\mapper\UserMapper.class]
+===2020-04-03 16:38:08.710 DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner Line:49  - Creating MapperFactoryBean with name 'userMapper' and 'com.fh.postg.mapper.UserMapper' mapperInterface
+===2020-04-03 16:38:08.710 DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner Line:49  - Enabling autowire by type for MapperFactoryBean with name 'userMapper'.
+===2020-04-03 16:38:08.933 INFO  org.apache.coyote.http11.Http11NioProtocol Line:173 - Initializing ProtocolHandler ["http-nio-8080"]
+===2020-04-03 16:38:08.934 INFO  org.apache.catalina.core.StandardService Line:173 - Starting service [Tomcat]
+===2020-04-03 16:38:08.934 INFO  org.apache.catalina.core.StandardEngine Line:173 - Starting Servlet engine: [Apache Tomcat/9.0.33]
+===2020-04-03 16:38:08.986 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:173 - Initializing Spring embedded WebApplicationContext
+===2020-04-03 16:38:09.031 DEBUG com.zaxxer.hikari.HikariConfig Line:900 - Driver class org.postgresql.Driver found in Thread context class loader sun.misc.Launcher$AppClassLoader@18b4aac2
+===2020-04-03 16:38:09.076 DEBUG org.mybatis.spring.SqlSessionFactoryBean Line:49  - Property 'mapperLocations' was not specified.
+===2020-04-03 16:38:09.098 DEBUG org.hibernate.validator.internal.engine.resolver.TraversableResolvers Line:60  - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+===2020-04-03 16:38:09.098 DEBUG org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator Line:89  - Loaded expression factory via original TCCL
+===2020-04-03 16:38:09.099 DEBUG org.hibernate.validator.internal.engine.resolver.TraversableResolvers Line:60  - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+===2020-04-03 16:38:09.100 DEBUG org.hibernate.validator.internal.engine.ConfigurationImpl Line:148 - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+===2020-04-03 16:38:09.100 DEBUG org.hibernate.validator.internal.engine.ConfigurationImpl Line:180 - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+===2020-04-03 16:38:09.100 DEBUG org.hibernate.validator.internal.engine.ConfigurationImpl Line:194 - Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
+===2020-04-03 16:38:09.101 DEBUG org.hibernate.validator.internal.xml.config.ValidationXmlParser Line:120 - Trying to load META-INF/validation.xml for XML based Validator configuration.
+===2020-04-03 16:38:09.101 DEBUG org.hibernate.validator.internal.xml.config.ResourceLoaderHelper Line:53  - Trying to load META-INF/validation.xml via user class loader
+===2020-04-03 16:38:09.101 DEBUG org.hibernate.validator.internal.xml.config.ResourceLoaderHelper Line:60  - Trying to load META-INF/validation.xml via TCCL
+===2020-04-03 16:38:09.101 DEBUG org.hibernate.validator.internal.xml.config.ResourceLoaderHelper Line:66  - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+===2020-04-03 16:38:09.101 DEBUG org.hibernate.validator.internal.xml.config.ValidationXmlParser Line:127 - No META-INF/validation.xml found. Using annotation based configuration only.
+===2020-04-03 16:38:09.103 DEBUG org.hibernate.validator.internal.engine.ValidatorFactoryImpl Line:578 - HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+===2020-04-03 16:38:09.104 DEBUG org.hibernate.validator.internal.engine.ValidatorFactoryImpl Line:579 - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+===2020-04-03 16:38:09.104 DEBUG org.hibernate.validator.internal.engine.ValidatorFactoryImpl Line:580 - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+===2020-04-03 16:38:09.104 DEBUG org.hibernate.validator.internal.engine.ValidatorFactoryImpl Line:581 - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+===2020-04-03 16:38:09.104 DEBUG org.hibernate.validator.internal.engine.ValidatorFactoryImpl Line:582 - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+===2020-04-03 16:38:09.216 DEBUG org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration Line:261 - Not found configuration for registering mapper bean using @MapperScan, MapperFactoryBean and MapperScannerConfigurer.
+===2020-04-03 16:38:09.257 INFO  org.apache.coyote.http11.Http11NioProtocol Line:173 - Starting ProtocolHandler ["http-nio-8080"]
+===2020-04-03 16:38:09.271 INFO  com.fh.postg.PostgApplication Line:61  - Started PostgApplication in 1.2 seconds (JVM running for 1.559)
+===2020-04-03 16:38:14.297 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+===2020-04-03 16:38:14.347 ERROR com.fh.postg.controller.UserController Line:34  - Hello world
+===2020-04-03 16:38:14.351 DEBUG org.mybatis.spring.SqlSessionUtils Line:49  - Creating a new SqlSession
+===2020-04-03 16:38:14.353 DEBUG org.mybatis.spring.SqlSessionUtils Line:49  - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3264c4f4] was not registered for synchronization because synchronization is not active
+===2020-04-03 16:38:14.357 DEBUG com.zaxxer.hikari.HikariConfig Line:1020 - HikariPool-1 - configuration:
+===2020-04-03 16:38:14.360 DEBUG com.zaxxer.hikari.HikariConfig Line:1052 - allowPoolSuspension.............false
+===2020-04-03 16:38:14.360 DEBUG com.zaxxer.hikari.HikariConfig Line:1052 - autoCommit......................true
+===2020-04-03 16:38:14.360 DEBUG com.zaxxer.hikari.HikariConfig Line:1052 - catalog.........................none
+===2020-04-03 16:38:14.360 DEBUG com.zaxxer.hikari.HikariConfig Line:1052 - connectionInitSql...............none
+===2020-04-03 16:38:14.361 DEBUG com.zaxxer.hikari.HikariConfig Line:1052 - connectionTestQuery.............none
+===2020-04-03 16:38:14.361 DEBUG com.zaxxer.hikari.HikariConfig Line:1052 - connectionTimeout...............30000
+===2020-04-03 16:38:14.361 DEBUG com.zaxxer.hikari.HikariConfig Line:1052 - dataSource......................none
+===2020-04-03 16:38:14.361 DEBUG com.zaxxer.hikari.HikariConfig Line:1052 - dataSourceClassName.............none
+===2020-04-03 16:38:14.361 DEBUG com.zaxxer.hikari.HikariConfig Line:1052 - dataSourceJNDI..................none
+===2020-04-03 16:38:14.361 DEBUG com.zaxxer.hikari.HikariConfig Line:1052 - dataSourceProperties............{password=<masked>}
+===2020-04-03 16:38:14.362 DEBUG com.zaxxer.hikari.HikariConfig Line:1052 - driverClassName................."org.postgresql.Driver"
+===2020-04-03 16:38:14.362 DEBUG com.zaxxer.hikari.HikariConfig Line:1052 - healthCheckProperties...........{}
+===2020-04-03 16:38:14.362 DEBUG com.zaxxer.hikari.HikariConfig Line:1052 - healthCheckRegistry.............none
+===2020-04-03 16:38:14.362 DEBUG com.zaxxer.hikari.HikariConfig Line:1052 - idleTimeout.....................600000
+===2020-04-03 16:38:14.362 DEBUG com.zaxxer.hikari.HikariConfig Line:1052 - initializationFailTimeout.......1
+===2020-04-03 16:38:14.362 DEBUG com.zaxxer.hikari.HikariConfig Line:1052 - isolateInternalQueries..........false
+===2020-04-03 16:38:14.363 DEBUG com.zaxxer.hikari.HikariConfig Line:1052 - jdbcUrl.........................jdbc:postgresql://192.168.4.35:5432/postgres
+===2020-04-03 16:38:14.363 DEBUG com.zaxxer.hikari.HikariConfig Line:1052 - leakDetectionThreshold..........0
+===2020-04-03 16:38:14.363 DEBUG com.zaxxer.hikari.HikariConfig Line:1052 - maxLifetime.....................1800000
+===2020-04-03 16:38:14.363 DEBUG com.zaxxer.hikari.HikariConfig Line:1052 - maximumPoolSize.................10
+===2020-04-03 16:38:14.363 DEBUG com.zaxxer.hikari.HikariConfig Line:1052 - metricRegistry..................none
+===2020-04-03 16:38:14.363 DEBUG com.zaxxer.hikari.HikariConfig Line:1052 - metricsTrackerFactory...........none
+===2020-04-03 16:38:14.363 DEBUG com.zaxxer.hikari.HikariConfig Line:1052 - minimumIdle.....................10
+===2020-04-03 16:38:14.363 DEBUG com.zaxxer.hikari.HikariConfig Line:1052 - password........................<masked>
+===2020-04-03 16:38:14.364 DEBUG com.zaxxer.hikari.HikariConfig Line:1052 - poolName........................"HikariPool-1"
+===2020-04-03 16:38:14.364 DEBUG com.zaxxer.hikari.HikariConfig Line:1052 - readOnly........................false
+===2020-04-03 16:38:14.364 DEBUG com.zaxxer.hikari.HikariConfig Line:1052 - registerMbeans..................false
+===2020-04-03 16:38:14.364 DEBUG com.zaxxer.hikari.HikariConfig Line:1052 - scheduledExecutor...............none
+===2020-04-03 16:38:14.364 DEBUG com.zaxxer.hikari.HikariConfig Line:1052 - schema..........................none
+===2020-04-03 16:38:14.364 DEBUG com.zaxxer.hikari.HikariConfig Line:1052 - threadFactory...................internal
+===2020-04-03 16:38:14.364 DEBUG com.zaxxer.hikari.HikariConfig Line:1052 - transactionIsolation............default
+===2020-04-03 16:38:14.365 DEBUG com.zaxxer.hikari.HikariConfig Line:1052 - username........................"postgres"
+===2020-04-03 16:38:14.365 DEBUG com.zaxxer.hikari.HikariConfig Line:1052 - validationTimeout...............5000
+===2020-04-03 16:38:14.365 INFO  com.zaxxer.hikari.HikariDataSource Line:110 - HikariPool-1 - Starting...
+===2020-04-03 16:38:14.409 DEBUG com.zaxxer.hikari.pool.HikariPool Line:558 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@3a62daa
+===2020-04-03 16:38:14.410 INFO  com.zaxxer.hikari.HikariDataSource Line:123 - HikariPool-1 - Start completed.
+===2020-04-03 16:38:14.412 DEBUG org.mybatis.spring.transaction.SpringManagedTransaction Line:49  - JDBC Connection [HikariProxyConnection@1891398180 wrapping org.postgresql.jdbc.PgConnection@3a62daa] will not be managed by Spring
+===2020-04-03 16:38:14.415 DEBUG com.fh.postg.mapper.UserMapper.selectId Line:143 - ==>  Preparing: select * from table_one where id=? 
+===2020-04-03 16:38:14.421 DEBUG com.fh.postg.mapper.UserMapper.selectId Line:143 - ==> Parameters: 1(Integer)
+===2020-04-03 16:38:14.429 DEBUG com.fh.postg.mapper.UserMapper.selectId Line:143 - <==      Total: 1
+===2020-04-03 16:38:14.432 DEBUG org.mybatis.spring.SqlSessionUtils Line:49  - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3264c4f4]
+===2020-04-03 16:38:14.510 DEBUG com.zaxxer.hikari.pool.HikariPool Line:417 - HikariPool-1 - Pool stats (total=1, active=0, idle=1, waiting=0)
+===2020-04-03 16:38:14.520 DEBUG com.zaxxer.hikari.pool.HikariPool Line:722 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@47be573c
+===2020-04-03 16:38:14.527 DEBUG com.zaxxer.hikari.pool.HikariPool Line:722 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@4979b1bb
+===2020-04-03 16:38:14.533 DEBUG com.zaxxer.hikari.pool.HikariPool Line:722 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@4d463c4c
+===2020-04-03 16:38:14.539 DEBUG com.zaxxer.hikari.pool.HikariPool Line:722 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@844bb80
+===2020-04-03 16:38:14.545 DEBUG com.zaxxer.hikari.pool.HikariPool Line:722 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@3d760a03
+===2020-04-03 16:38:14.551 DEBUG com.zaxxer.hikari.pool.HikariPool Line:722 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@3906907f
+===2020-04-03 16:38:14.557 DEBUG com.zaxxer.hikari.pool.HikariPool Line:722 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@45de7f4f
+===2020-04-03 16:38:14.563 DEBUG com.zaxxer.hikari.pool.HikariPool Line:722 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@686b44cf
+===2020-04-03 16:38:14.568 DEBUG com.zaxxer.hikari.pool.HikariPool Line:722 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@65c06dd3
+===2020-04-03 16:38:14.568 DEBUG com.zaxxer.hikari.pool.HikariPool Line:417 - HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+===2020-04-03 16:38:44.512 DEBUG com.zaxxer.hikari.pool.HikariPool Line:417 - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+===2020-04-03 16:39:14.514 DEBUG com.zaxxer.hikari.pool.HikariPool Line:417 - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+===2020-04-03 16:39:44.515 DEBUG com.zaxxer.hikari.pool.HikariPool Line:417 - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+===2020-04-03 16:40:14.517 DEBUG com.zaxxer.hikari.pool.HikariPool Line:417 - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+===2020-04-03 16:40:28.433 ERROR com.fh.postg.controller.UserController Line:34  - Hello world
+===2020-04-03 16:40:28.434 DEBUG org.mybatis.spring.SqlSessionUtils Line:49  - Creating a new SqlSession
+===2020-04-03 16:40:28.434 DEBUG org.mybatis.spring.SqlSessionUtils Line:49  - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@659b9000] was not registered for synchronization because synchronization is not active
+===2020-04-03 16:40:28.435 DEBUG org.mybatis.spring.transaction.SpringManagedTransaction Line:49  - JDBC Connection [HikariProxyConnection@1801220803 wrapping org.postgresql.jdbc.PgConnection@3a62daa] will not be managed by Spring
+===2020-04-03 16:40:28.436 DEBUG com.fh.postg.mapper.UserMapper.selectId Line:143 - ==>  Preparing: select * from table_one where id=? 
+===2020-04-03 16:40:28.436 DEBUG com.fh.postg.mapper.UserMapper.selectId Line:143 - ==> Parameters: 1(Integer)
+===2020-04-03 16:40:28.437 DEBUG com.fh.postg.mapper.UserMapper.selectId Line:143 - <==      Total: 1
+===2020-04-03 16:40:28.438 DEBUG org.mybatis.spring.SqlSessionUtils Line:49  - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@659b9000]
+===2020-04-03 16:40:44.517 DEBUG com.zaxxer.hikari.pool.HikariPool Line:417 - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+===2020-04-03 16:41:14.519 DEBUG com.zaxxer.hikari.pool.HikariPool Line:417 - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+===2020-04-03 16:46:59.524 INFO  com.fh.postg.PostgApplication Line:55  - Starting PostgApplication on DESKTOP-190729 with PID 13296 (E:\文档下载\spring-boot-demo-master\spring-boot-demo-master\postg\target\classes started by Administrator in E:\文档下载\spring-boot-demo-master\spring-boot-demo-master\postg)
+===2020-04-03 16:46:59.526 DEBUG com.fh.postg.PostgApplication Line:56  - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+===2020-04-03 16:46:59.526 INFO  com.fh.postg.PostgApplication Line:651 - No active profile set, falling back to default profiles: default
+===2020-04-03 16:46:59.831 DEBUG org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration Line:224 - Searching for mappers annotated with @Mapper
+===2020-04-03 16:46:59.831 DEBUG org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration Line:228 - Using auto-configuration base package 'com.fh.postg'
+===2020-04-03 16:46:59.882 DEBUG org.apache.ibatis.logging.LogFactory Line:105 - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+===2020-04-03 16:46:59.884 DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner Line:435 - Identified candidate component class: file [E:\文档下载\spring-boot-demo-master\spring-boot-demo-master\postg\target\classes\com\fh\postg\mapper\UserMapper.class]
+===2020-04-03 16:46:59.884 DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner Line:49  - Creating MapperFactoryBean with name 'userMapper' and 'com.fh.postg.mapper.UserMapper' mapperInterface
+===2020-04-03 16:46:59.885 DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner Line:49  - Enabling autowire by type for MapperFactoryBean with name 'userMapper'.
+===2020-04-03 16:47:00.103 INFO  org.apache.coyote.http11.Http11NioProtocol Line:173 - Initializing ProtocolHandler ["http-nio-8080"]
+===2020-04-03 16:47:00.104 INFO  org.apache.catalina.core.StandardService Line:173 - Starting service [Tomcat]
+===2020-04-03 16:47:00.104 INFO  org.apache.catalina.core.StandardEngine Line:173 - Starting Servlet engine: [Apache Tomcat/9.0.33]
+===2020-04-03 16:47:00.156 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:173 - Initializing Spring embedded WebApplicationContext
+===2020-04-03 16:47:00.200 DEBUG com.zaxxer.hikari.HikariConfig Line:900 - Driver class org.postgresql.Driver found in Thread context class loader sun.misc.Launcher$AppClassLoader@18b4aac2
+===2020-04-03 16:47:00.243 DEBUG org.mybatis.spring.SqlSessionFactoryBean Line:49  - Property 'mapperLocations' was not specified.
+===2020-04-03 16:47:00.265 DEBUG org.hibernate.validator.internal.engine.resolver.TraversableResolvers Line:60  - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+===2020-04-03 16:47:00.265 DEBUG org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator Line:89  - Loaded expression factory via original TCCL
+===2020-04-03 16:47:00.267 DEBUG org.hibernate.validator.internal.engine.resolver.TraversableResolvers Line:60  - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+===2020-04-03 16:47:00.267 DEBUG org.hibernate.validator.internal.engine.ConfigurationImpl Line:148 - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+===2020-04-03 16:47:00.267 DEBUG org.hibernate.validator.internal.engine.ConfigurationImpl Line:180 - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+===2020-04-03 16:47:00.268 DEBUG org.hibernate.validator.internal.engine.ConfigurationImpl Line:194 - Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
+===2020-04-03 16:47:00.268 DEBUG org.hibernate.validator.internal.xml.config.ValidationXmlParser Line:120 - Trying to load META-INF/validation.xml for XML based Validator configuration.
+===2020-04-03 16:47:00.268 DEBUG org.hibernate.validator.internal.xml.config.ResourceLoaderHelper Line:53  - Trying to load META-INF/validation.xml via user class loader
+===2020-04-03 16:47:00.268 DEBUG org.hibernate.validator.internal.xml.config.ResourceLoaderHelper Line:60  - Trying to load META-INF/validation.xml via TCCL
+===2020-04-03 16:47:00.268 DEBUG org.hibernate.validator.internal.xml.config.ResourceLoaderHelper Line:66  - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+===2020-04-03 16:47:00.269 DEBUG org.hibernate.validator.internal.xml.config.ValidationXmlParser Line:127 - No META-INF/validation.xml found. Using annotation based configuration only.
+===2020-04-03 16:47:00.271 DEBUG org.hibernate.validator.internal.engine.ValidatorFactoryImpl Line:578 - HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+===2020-04-03 16:47:00.271 DEBUG org.hibernate.validator.internal.engine.ValidatorFactoryImpl Line:579 - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+===2020-04-03 16:47:00.271 DEBUG org.hibernate.validator.internal.engine.ValidatorFactoryImpl Line:580 - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+===2020-04-03 16:47:00.271 DEBUG org.hibernate.validator.internal.engine.ValidatorFactoryImpl Line:581 - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+===2020-04-03 16:47:00.271 DEBUG org.hibernate.validator.internal.engine.ValidatorFactoryImpl Line:582 - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+===2020-04-03 16:47:00.378 DEBUG org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration Line:261 - Not found configuration for registering mapper bean using @MapperScan, MapperFactoryBean and MapperScannerConfigurer.
+===2020-04-03 16:47:00.419 INFO  org.apache.coyote.http11.Http11NioProtocol Line:173 - Starting ProtocolHandler ["http-nio-8080"]
+===2020-04-03 16:47:00.432 INFO  com.fh.postg.PostgApplication Line:61  - Started PostgApplication in 1.152 seconds (JVM running for 1.521)
+===2020-04-03 16:47:05.937 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+===2020-04-03 16:47:05.984 ERROR com.fh.postg.controller.UserController Line:34  - Hello world
+===2020-04-03 16:47:05.987 DEBUG org.mybatis.spring.SqlSessionUtils Line:49  - Creating a new SqlSession
+===2020-04-03 16:47:05.989 DEBUG org.mybatis.spring.SqlSessionUtils Line:49  - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6a8bd8f7] was not registered for synchronization because synchronization is not active
+===2020-04-03 16:47:05.993 DEBUG com.zaxxer.hikari.HikariConfig Line:1020 - HikariPool-1 - configuration:
+===2020-04-03 16:47:05.995 DEBUG com.zaxxer.hikari.HikariConfig Line:1052 - allowPoolSuspension.............false
+===2020-04-03 16:47:05.995 DEBUG com.zaxxer.hikari.HikariConfig Line:1052 - autoCommit......................true
+===2020-04-03 16:47:05.995 DEBUG com.zaxxer.hikari.HikariConfig Line:1052 - catalog.........................none
+===2020-04-03 16:47:05.995 DEBUG com.zaxxer.hikari.HikariConfig Line:1052 - connectionInitSql...............none
+===2020-04-03 16:47:05.995 DEBUG com.zaxxer.hikari.HikariConfig Line:1052 - connectionTestQuery.............none
+===2020-04-03 16:47:05.995 DEBUG com.zaxxer.hikari.HikariConfig Line:1052 - connectionTimeout...............30000
+===2020-04-03 16:47:05.995 DEBUG com.zaxxer.hikari.HikariConfig Line:1052 - dataSource......................none
+===2020-04-03 16:47:05.996 DEBUG com.zaxxer.hikari.HikariConfig Line:1052 - dataSourceClassName.............none
+===2020-04-03 16:47:05.996 DEBUG com.zaxxer.hikari.HikariConfig Line:1052 - dataSourceJNDI..................none
+===2020-04-03 16:47:05.996 DEBUG com.zaxxer.hikari.HikariConfig Line:1052 - dataSourceProperties............{password=<masked>}
+===2020-04-03 16:47:05.996 DEBUG com.zaxxer.hikari.HikariConfig Line:1052 - driverClassName................."org.postgresql.Driver"
+===2020-04-03 16:47:05.996 DEBUG com.zaxxer.hikari.HikariConfig Line:1052 - healthCheckProperties...........{}
+===2020-04-03 16:47:05.997 DEBUG com.zaxxer.hikari.HikariConfig Line:1052 - healthCheckRegistry.............none
+===2020-04-03 16:47:05.997 DEBUG com.zaxxer.hikari.HikariConfig Line:1052 - idleTimeout.....................600000
+===2020-04-03 16:47:05.997 DEBUG com.zaxxer.hikari.HikariConfig Line:1052 - initializationFailTimeout.......1
+===2020-04-03 16:47:05.997 DEBUG com.zaxxer.hikari.HikariConfig Line:1052 - isolateInternalQueries..........false
+===2020-04-03 16:47:05.997 DEBUG com.zaxxer.hikari.HikariConfig Line:1052 - jdbcUrl.........................jdbc:postgresql://192.168.4.35:5432/postgres
+===2020-04-03 16:47:05.997 DEBUG com.zaxxer.hikari.HikariConfig Line:1052 - leakDetectionThreshold..........0
+===2020-04-03 16:47:05.997 DEBUG com.zaxxer.hikari.HikariConfig Line:1052 - maxLifetime.....................1800000
+===2020-04-03 16:47:05.998 DEBUG com.zaxxer.hikari.HikariConfig Line:1052 - maximumPoolSize.................10
+===2020-04-03 16:47:05.998 DEBUG com.zaxxer.hikari.HikariConfig Line:1052 - metricRegistry..................none
+===2020-04-03 16:47:05.998 DEBUG com.zaxxer.hikari.HikariConfig Line:1052 - metricsTrackerFactory...........none
+===2020-04-03 16:47:05.998 DEBUG com.zaxxer.hikari.HikariConfig Line:1052 - minimumIdle.....................10
+===2020-04-03 16:47:05.998 DEBUG com.zaxxer.hikari.HikariConfig Line:1052 - password........................<masked>
+===2020-04-03 16:47:05.998 DEBUG com.zaxxer.hikari.HikariConfig Line:1052 - poolName........................"HikariPool-1"
+===2020-04-03 16:47:05.998 DEBUG com.zaxxer.hikari.HikariConfig Line:1052 - readOnly........................false
+===2020-04-03 16:47:05.999 DEBUG com.zaxxer.hikari.HikariConfig Line:1052 - registerMbeans..................false
+===2020-04-03 16:47:05.999 DEBUG com.zaxxer.hikari.HikariConfig Line:1052 - scheduledExecutor...............none
+===2020-04-03 16:47:05.999 DEBUG com.zaxxer.hikari.HikariConfig Line:1052 - schema..........................none
+===2020-04-03 16:47:05.999 DEBUG com.zaxxer.hikari.HikariConfig Line:1052 - threadFactory...................internal
+===2020-04-03 16:47:05.999 DEBUG com.zaxxer.hikari.HikariConfig Line:1052 - transactionIsolation............default
+===2020-04-03 16:47:05.999 DEBUG com.zaxxer.hikari.HikariConfig Line:1052 - username........................"postgres"
+===2020-04-03 16:47:05.999 DEBUG com.zaxxer.hikari.HikariConfig Line:1052 - validationTimeout...............5000
+===2020-04-03 16:47:05.999 INFO  com.zaxxer.hikari.HikariDataSource Line:110 - HikariPool-1 - Starting...
+===2020-04-03 16:47:06.040 DEBUG com.zaxxer.hikari.pool.HikariPool Line:558 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@7605078
+===2020-04-03 16:47:06.041 INFO  com.zaxxer.hikari.HikariDataSource Line:123 - HikariPool-1 - Start completed.
+===2020-04-03 16:47:06.042 DEBUG org.mybatis.spring.transaction.SpringManagedTransaction Line:49  - JDBC Connection [HikariProxyConnection@880885620 wrapping org.postgresql.jdbc.PgConnection@7605078] will not be managed by Spring
+===2020-04-03 16:47:06.045 DEBUG com.fh.postg.mapper.UserMapper.selectId Line:143 - ==>  Preparing: select * from table_one where id=? 
+===2020-04-03 16:47:06.052 DEBUG com.fh.postg.mapper.UserMapper.selectId Line:143 - ==> Parameters: 1(Integer)
+===2020-04-03 16:47:06.060 DEBUG com.fh.postg.mapper.UserMapper.selectId Line:143 - <==      Total: 1
+===2020-04-03 16:47:06.063 DEBUG org.mybatis.spring.SqlSessionUtils Line:49  - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6a8bd8f7]
+===2020-04-03 16:47:06.142 DEBUG com.zaxxer.hikari.pool.HikariPool Line:417 - HikariPool-1 - Pool stats (total=1, active=0, idle=1, waiting=0)
+===2020-04-03 16:47:06.149 DEBUG com.zaxxer.hikari.pool.HikariPool Line:722 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@27bf4beb
+===2020-04-03 16:47:06.156 DEBUG com.zaxxer.hikari.pool.HikariPool Line:722 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@2978a16c
+===2020-04-03 16:47:06.162 DEBUG com.zaxxer.hikari.pool.HikariPool Line:722 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@2d47209b
+===2020-04-03 16:47:06.167 DEBUG com.zaxxer.hikari.pool.HikariPool Line:722 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6845ab57
+===2020-04-03 16:47:06.173 DEBUG com.zaxxer.hikari.pool.HikariPool Line:722 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@35f855a7
+===2020-04-03 16:47:06.179 DEBUG com.zaxxer.hikari.pool.HikariPool Line:722 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@5967e1b5
+===2020-04-03 16:47:06.185 DEBUG com.zaxxer.hikari.pool.HikariPool Line:722 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@4d3041fa
+===2020-04-03 16:47:06.192 DEBUG com.zaxxer.hikari.pool.HikariPool Line:722 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@86a5418
+===2020-04-03 16:47:06.197 DEBUG com.zaxxer.hikari.pool.HikariPool Line:722 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@7fc87ddf
+===2020-04-03 16:47:06.198 DEBUG com.zaxxer.hikari.pool.HikariPool Line:417 - HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+===2020-04-03 16:47:36.144 DEBUG com.zaxxer.hikari.pool.HikariPool Line:417 - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+===2020-04-03 16:48:06.146 DEBUG com.zaxxer.hikari.pool.HikariPool Line:417 - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+===2020-04-03 16:48:36.148 DEBUG com.zaxxer.hikari.pool.HikariPool Line:417 - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+===2020-04-03 16:48:50.007 INFO  com.fh.postg.PostgApplication Line:55  - Starting PostgApplication on DESKTOP-190729 with PID 17800 (E:\文档下载\spring-boot-demo-master\spring-boot-demo-master\postg\target\classes started by Administrator in E:\文档下载\spring-boot-demo-master\spring-boot-demo-master\postg)
+===2020-04-03 16:48:50.009 DEBUG com.fh.postg.PostgApplication Line:56  - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+===2020-04-03 16:48:50.009 INFO  com.fh.postg.PostgApplication Line:651 - No active profile set, falling back to default profiles: default
+===2020-04-03 16:48:50.323 DEBUG org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration Line:224 - Searching for mappers annotated with @Mapper
+===2020-04-03 16:48:50.323 DEBUG org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration Line:228 - Using auto-configuration base package 'com.fh.postg'
+===2020-04-03 16:48:50.378 DEBUG org.apache.ibatis.logging.LogFactory Line:105 - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+===2020-04-03 16:48:50.381 DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner Line:435 - Identified candidate component class: file [E:\文档下载\spring-boot-demo-master\spring-boot-demo-master\postg\target\classes\com\fh\postg\mapper\UserMapper.class]
+===2020-04-03 16:48:50.381 DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner Line:49  - Creating MapperFactoryBean with name 'userMapper' and 'com.fh.postg.mapper.UserMapper' mapperInterface
+===2020-04-03 16:48:50.381 DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner Line:49  - Enabling autowire by type for MapperFactoryBean with name 'userMapper'.
+===2020-04-03 16:48:50.618 INFO  org.apache.coyote.http11.Http11NioProtocol Line:173 - Initializing ProtocolHandler ["http-nio-8080"]
+===2020-04-03 16:48:50.618 INFO  org.apache.catalina.core.StandardService Line:173 - Starting service [Tomcat]
+===2020-04-03 16:48:50.619 INFO  org.apache.catalina.core.StandardEngine Line:173 - Starting Servlet engine: [Apache Tomcat/9.0.33]
+===2020-04-03 16:48:50.673 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:173 - Initializing Spring embedded WebApplicationContext
+===2020-04-03 16:48:50.720 DEBUG com.zaxxer.hikari.HikariConfig Line:900 - Driver class org.postgresql.Driver found in Thread context class loader sun.misc.Launcher$AppClassLoader@18b4aac2
+===2020-04-03 16:48:50.768 DEBUG org.mybatis.spring.SqlSessionFactoryBean Line:49  - Property 'mapperLocations' was not specified.
+===2020-04-03 16:48:50.791 DEBUG org.hibernate.validator.internal.engine.resolver.TraversableResolvers Line:60  - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+===2020-04-03 16:48:50.791 DEBUG org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator Line:89  - Loaded expression factory via original TCCL
+===2020-04-03 16:48:50.793 DEBUG org.hibernate.validator.internal.engine.resolver.TraversableResolvers Line:60  - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+===2020-04-03 16:48:50.794 DEBUG org.hibernate.validator.internal.engine.ConfigurationImpl Line:148 - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+===2020-04-03 16:48:50.794 DEBUG org.hibernate.validator.internal.engine.ConfigurationImpl Line:180 - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+===2020-04-03 16:48:50.795 DEBUG org.hibernate.validator.internal.engine.ConfigurationImpl Line:194 - Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
+===2020-04-03 16:48:50.795 DEBUG org.hibernate.validator.internal.xml.config.ValidationXmlParser Line:120 - Trying to load META-INF/validation.xml for XML based Validator configuration.
+===2020-04-03 16:48:50.795 DEBUG org.hibernate.validator.internal.xml.config.ResourceLoaderHelper Line:53  - Trying to load META-INF/validation.xml via user class loader
+===2020-04-03 16:48:50.795 DEBUG org.hibernate.validator.internal.xml.config.ResourceLoaderHelper Line:60  - Trying to load META-INF/validation.xml via TCCL
+===2020-04-03 16:48:50.796 DEBUG org.hibernate.validator.internal.xml.config.ResourceLoaderHelper Line:66  - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+===2020-04-03 16:48:50.796 DEBUG org.hibernate.validator.internal.xml.config.ValidationXmlParser Line:127 - No META-INF/validation.xml found. Using annotation based configuration only.
+===2020-04-03 16:48:50.798 DEBUG org.hibernate.validator.internal.engine.ValidatorFactoryImpl Line:578 - HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+===2020-04-03 16:48:50.798 DEBUG org.hibernate.validator.internal.engine.ValidatorFactoryImpl Line:579 - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+===2020-04-03 16:48:50.798 DEBUG org.hibernate.validator.internal.engine.ValidatorFactoryImpl Line:580 - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+===2020-04-03 16:48:50.798 DEBUG org.hibernate.validator.internal.engine.ValidatorFactoryImpl Line:581 - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+===2020-04-03 16:48:50.798 DEBUG org.hibernate.validator.internal.engine.ValidatorFactoryImpl Line:582 - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+===2020-04-03 16:48:50.911 DEBUG org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration Line:261 - Not found configuration for registering mapper bean using @MapperScan, MapperFactoryBean and MapperScannerConfigurer.
+===2020-04-03 16:48:50.950 INFO  org.apache.coyote.http11.Http11NioProtocol Line:173 - Starting ProtocolHandler ["http-nio-8080"]
+===2020-04-03 16:48:50.962 INFO  com.fh.postg.PostgApplication Line:61  - Started PostgApplication in 1.195 seconds (JVM running for 1.563)
+===2020-04-03 16:48:55.018 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+===2020-04-03 16:48:55.069 DEBUG org.mybatis.spring.SqlSessionUtils Line:49  - Creating a new SqlSession
+===2020-04-03 16:48:55.071 DEBUG org.mybatis.spring.SqlSessionUtils Line:49  - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4e063c28] was not registered for synchronization because synchronization is not active
+===2020-04-03 16:48:55.075 DEBUG com.zaxxer.hikari.HikariConfig Line:1020 - HikariPool-1 - configuration:
+===2020-04-03 16:48:55.076 DEBUG com.zaxxer.hikari.HikariConfig Line:1052 - allowPoolSuspension.............false
+===2020-04-03 16:48:55.076 DEBUG com.zaxxer.hikari.HikariConfig Line:1052 - autoCommit......................true
+===2020-04-03 16:48:55.077 DEBUG com.zaxxer.hikari.HikariConfig Line:1052 - catalog.........................none
+===2020-04-03 16:48:55.077 DEBUG com.zaxxer.hikari.HikariConfig Line:1052 - connectionInitSql...............none
+===2020-04-03 16:48:55.077 DEBUG com.zaxxer.hikari.HikariConfig Line:1052 - connectionTestQuery.............none
+===2020-04-03 16:48:55.077 DEBUG com.zaxxer.hikari.HikariConfig Line:1052 - connectionTimeout...............30000
+===2020-04-03 16:48:55.077 DEBUG com.zaxxer.hikari.HikariConfig Line:1052 - dataSource......................none
+===2020-04-03 16:48:55.077 DEBUG com.zaxxer.hikari.HikariConfig Line:1052 - dataSourceClassName.............none
+===2020-04-03 16:48:55.077 DEBUG com.zaxxer.hikari.HikariConfig Line:1052 - dataSourceJNDI..................none
+===2020-04-03 16:48:55.078 DEBUG com.zaxxer.hikari.HikariConfig Line:1052 - dataSourceProperties............{password=<masked>}
+===2020-04-03 16:48:55.078 DEBUG com.zaxxer.hikari.HikariConfig Line:1052 - driverClassName................."org.postgresql.Driver"
+===2020-04-03 16:48:55.078 DEBUG com.zaxxer.hikari.HikariConfig Line:1052 - healthCheckProperties...........{}
+===2020-04-03 16:48:55.078 DEBUG com.zaxxer.hikari.HikariConfig Line:1052 - healthCheckRegistry.............none
+===2020-04-03 16:48:55.078 DEBUG com.zaxxer.hikari.HikariConfig Line:1052 - idleTimeout.....................600000
+===2020-04-03 16:48:55.078 DEBUG com.zaxxer.hikari.HikariConfig Line:1052 - initializationFailTimeout.......1
+===2020-04-03 16:48:55.079 DEBUG com.zaxxer.hikari.HikariConfig Line:1052 - isolateInternalQueries..........false
+===2020-04-03 16:48:55.079 DEBUG com.zaxxer.hikari.HikariConfig Line:1052 - jdbcUrl.........................jdbc:postgresql://192.168.4.35:5432/postgres
+===2020-04-03 16:48:55.079 DEBUG com.zaxxer.hikari.HikariConfig Line:1052 - leakDetectionThreshold..........0
+===2020-04-03 16:48:55.079 DEBUG com.zaxxer.hikari.HikariConfig Line:1052 - maxLifetime.....................1800000
+===2020-04-03 16:48:55.079 DEBUG com.zaxxer.hikari.HikariConfig Line:1052 - maximumPoolSize.................10
+===2020-04-03 16:48:55.079 DEBUG com.zaxxer.hikari.HikariConfig Line:1052 - metricRegistry..................none
+===2020-04-03 16:48:55.079 DEBUG com.zaxxer.hikari.HikariConfig Line:1052 - metricsTrackerFactory...........none
+===2020-04-03 16:48:55.080 DEBUG com.zaxxer.hikari.HikariConfig Line:1052 - minimumIdle.....................10
+===2020-04-03 16:48:55.080 DEBUG com.zaxxer.hikari.HikariConfig Line:1052 - password........................<masked>
+===2020-04-03 16:48:55.080 DEBUG com.zaxxer.hikari.HikariConfig Line:1052 - poolName........................"HikariPool-1"
+===2020-04-03 16:48:55.080 DEBUG com.zaxxer.hikari.HikariConfig Line:1052 - readOnly........................false
+===2020-04-03 16:48:55.080 DEBUG com.zaxxer.hikari.HikariConfig Line:1052 - registerMbeans..................false
+===2020-04-03 16:48:55.080 DEBUG com.zaxxer.hikari.HikariConfig Line:1052 - scheduledExecutor...............none
+===2020-04-03 16:48:55.080 DEBUG com.zaxxer.hikari.HikariConfig Line:1052 - schema..........................none
+===2020-04-03 16:48:55.081 DEBUG com.zaxxer.hikari.HikariConfig Line:1052 - threadFactory...................internal
+===2020-04-03 16:48:55.081 DEBUG com.zaxxer.hikari.HikariConfig Line:1052 - transactionIsolation............default
+===2020-04-03 16:48:55.081 DEBUG com.zaxxer.hikari.HikariConfig Line:1052 - username........................"postgres"
+===2020-04-03 16:48:55.081 DEBUG com.zaxxer.hikari.HikariConfig Line:1052 - validationTimeout...............5000
+===2020-04-03 16:48:55.081 INFO  com.zaxxer.hikari.HikariDataSource Line:110 - HikariPool-1 - Starting...
+===2020-04-03 16:48:55.123 DEBUG com.zaxxer.hikari.pool.HikariPool Line:558 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@2a3782ad
+===2020-04-03 16:48:55.124 INFO  com.zaxxer.hikari.HikariDataSource Line:123 - HikariPool-1 - Start completed.
+===2020-04-03 16:48:55.126 DEBUG org.mybatis.spring.transaction.SpringManagedTransaction Line:49  - JDBC Connection [HikariProxyConnection@1484142910 wrapping org.postgresql.jdbc.PgConnection@2a3782ad] will not be managed by Spring
+===2020-04-03 16:48:55.129 DEBUG com.fh.postg.mapper.UserMapper.selectId Line:143 - ==>  Preparing: select * from table_one where id=? 
+===2020-04-03 16:48:55.135 DEBUG com.fh.postg.mapper.UserMapper.selectId Line:143 - ==> Parameters: 1(Integer)
+===2020-04-03 16:48:55.144 DEBUG com.fh.postg.mapper.UserMapper.selectId Line:143 - <==      Total: 1
+===2020-04-03 16:48:55.147 DEBUG org.mybatis.spring.SqlSessionUtils Line:49  - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4e063c28]
+===2020-04-03 16:48:55.225 DEBUG com.zaxxer.hikari.pool.HikariPool Line:417 - HikariPool-1 - Pool stats (total=1, active=0, idle=1, waiting=0)
+===2020-04-03 16:48:55.236 DEBUG com.zaxxer.hikari.pool.HikariPool Line:722 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@3fd2c21a
+===2020-04-03 16:48:55.243 DEBUG com.zaxxer.hikari.pool.HikariPool Line:722 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@31153b90
+===2020-04-03 16:48:55.249 DEBUG com.zaxxer.hikari.pool.HikariPool Line:722 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@352aa96a
+===2020-04-03 16:48:55.255 DEBUG com.zaxxer.hikari.pool.HikariPool Line:722 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@702831ab
+===2020-04-03 16:48:55.260 DEBUG com.zaxxer.hikari.pool.HikariPool Line:722 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@5943ffa6
+===2020-04-03 16:48:55.266 DEBUG com.zaxxer.hikari.pool.HikariPool Line:722 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@419286a5
+===2020-04-03 16:48:55.272 DEBUG com.zaxxer.hikari.pool.HikariPool Line:722 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@21131604
+===2020-04-03 16:48:55.277 DEBUG com.zaxxer.hikari.pool.HikariPool Line:722 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@1007cee4
+===2020-04-03 16:48:55.283 DEBUG com.zaxxer.hikari.pool.HikariPool Line:722 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@56ffbd8d
+===2020-04-03 16:48:55.283 DEBUG com.zaxxer.hikari.pool.HikariPool Line:417 - HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+===2020-04-03 16:49:08.890 DEBUG org.mybatis.spring.SqlSessionUtils Line:49  - Creating a new SqlSession
+===2020-04-03 16:49:08.890 DEBUG org.mybatis.spring.SqlSessionUtils Line:49  - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7bdc054d] was not registered for synchronization because synchronization is not active
+===2020-04-03 16:49:08.891 DEBUG org.mybatis.spring.transaction.SpringManagedTransaction Line:49  - JDBC Connection [HikariProxyConnection@1964766278 wrapping org.postgresql.jdbc.PgConnection@2a3782ad] will not be managed by Spring
+===2020-04-03 16:49:08.892 DEBUG com.fh.postg.mapper.UserMapper.selectId Line:143 - ==>  Preparing: select * from table_one where id=? 
+===2020-04-03 16:49:08.892 DEBUG com.fh.postg.mapper.UserMapper.selectId Line:143 - ==> Parameters: 1(Integer)
+===2020-04-03 16:49:08.893 DEBUG com.fh.postg.mapper.UserMapper.selectId Line:143 - <==      Total: 1
+===2020-04-03 16:49:08.894 DEBUG org.mybatis.spring.SqlSessionUtils Line:49  - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7bdc054d]
+===2020-04-03 16:49:25.227 DEBUG com.zaxxer.hikari.pool.HikariPool Line:417 - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+===2020-04-03 16:49:39.953 INFO  com.fh.postg.PostgApplication Line:55  - Starting PostgApplication on DESKTOP-190729 with PID 18560 (E:\文档下载\spring-boot-demo-master\spring-boot-demo-master\postg\target\classes started by Administrator in E:\文档下载\spring-boot-demo-master\spring-boot-demo-master\postg)
+===2020-04-03 16:49:39.955 DEBUG com.fh.postg.PostgApplication Line:56  - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+===2020-04-03 16:49:39.955 INFO  com.fh.postg.PostgApplication Line:651 - No active profile set, falling back to default profiles: default
+===2020-04-03 16:49:40.287 DEBUG org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration Line:224 - Searching for mappers annotated with @Mapper
+===2020-04-03 16:49:40.288 DEBUG org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration Line:228 - Using auto-configuration base package 'com.fh.postg'
+===2020-04-03 16:49:40.346 DEBUG org.apache.ibatis.logging.LogFactory Line:105 - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+===2020-04-03 16:49:40.348 DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner Line:435 - Identified candidate component class: file [E:\文档下载\spring-boot-demo-master\spring-boot-demo-master\postg\target\classes\com\fh\postg\mapper\UserMapper.class]
+===2020-04-03 16:49:40.349 DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner Line:49  - Creating MapperFactoryBean with name 'userMapper' and 'com.fh.postg.mapper.UserMapper' mapperInterface
+===2020-04-03 16:49:40.349 DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner Line:49  - Enabling autowire by type for MapperFactoryBean with name 'userMapper'.
+===2020-04-03 16:49:40.579 INFO  org.apache.coyote.http11.Http11NioProtocol Line:173 - Initializing ProtocolHandler ["http-nio-8080"]
+===2020-04-03 16:49:40.580 INFO  org.apache.catalina.core.StandardService Line:173 - Starting service [Tomcat]
+===2020-04-03 16:49:40.580 INFO  org.apache.catalina.core.StandardEngine Line:173 - Starting Servlet engine: [Apache Tomcat/9.0.33]
+===2020-04-03 16:49:40.632 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:173 - Initializing Spring embedded WebApplicationContext
+===2020-04-03 16:49:40.676 DEBUG com.zaxxer.hikari.HikariConfig Line:900 - Driver class org.postgresql.Driver found in Thread context class loader sun.misc.Launcher$AppClassLoader@18b4aac2
+===2020-04-03 16:49:40.721 DEBUG org.mybatis.spring.SqlSessionFactoryBean Line:49  - Property 'mapperLocations' was not specified.
+===2020-04-03 16:49:40.743 DEBUG org.hibernate.validator.internal.engine.resolver.TraversableResolvers Line:60  - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+===2020-04-03 16:49:40.743 DEBUG org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator Line:89  - Loaded expression factory via original TCCL
+===2020-04-03 16:49:40.745 DEBUG org.hibernate.validator.internal.engine.resolver.TraversableResolvers Line:60  - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+===2020-04-03 16:49:40.745 DEBUG org.hibernate.validator.internal.engine.ConfigurationImpl Line:148 - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+===2020-04-03 16:49:40.746 DEBUG org.hibernate.validator.internal.engine.ConfigurationImpl Line:180 - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+===2020-04-03 16:49:40.746 DEBUG org.hibernate.validator.internal.engine.ConfigurationImpl Line:194 - Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
+===2020-04-03 16:49:40.746 DEBUG org.hibernate.validator.internal.xml.config.ValidationXmlParser Line:120 - Trying to load META-INF/validation.xml for XML based Validator configuration.
+===2020-04-03 16:49:40.746 DEBUG org.hibernate.validator.internal.xml.config.ResourceLoaderHelper Line:53  - Trying to load META-INF/validation.xml via user class loader
+===2020-04-03 16:49:40.747 DEBUG org.hibernate.validator.internal.xml.config.ResourceLoaderHelper Line:60  - Trying to load META-INF/validation.xml via TCCL
+===2020-04-03 16:49:40.747 DEBUG org.hibernate.validator.internal.xml.config.ResourceLoaderHelper Line:66  - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+===2020-04-03 16:49:40.747 DEBUG org.hibernate.validator.internal.xml.config.ValidationXmlParser Line:127 - No META-INF/validation.xml found. Using annotation based configuration only.
+===2020-04-03 16:49:40.749 DEBUG org.hibernate.validator.internal.engine.ValidatorFactoryImpl Line:578 - HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+===2020-04-03 16:49:40.749 DEBUG org.hibernate.validator.internal.engine.ValidatorFactoryImpl Line:579 - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+===2020-04-03 16:49:40.749 DEBUG org.hibernate.validator.internal.engine.ValidatorFactoryImpl Line:580 - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+===2020-04-03 16:49:40.749 DEBUG org.hibernate.validator.internal.engine.ValidatorFactoryImpl Line:581 - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+===2020-04-03 16:49:40.749 DEBUG org.hibernate.validator.internal.engine.ValidatorFactoryImpl Line:582 - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+===2020-04-03 16:49:40.857 DEBUG org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration Line:261 - Not found configuration for registering mapper bean using @MapperScan, MapperFactoryBean and MapperScannerConfigurer.
+===2020-04-03 16:49:40.898 INFO  org.apache.coyote.http11.Http11NioProtocol Line:173 - Starting ProtocolHandler ["http-nio-8080"]
+===2020-04-03 16:49:40.912 INFO  com.fh.postg.PostgApplication Line:61  - Started PostgApplication in 1.189 seconds (JVM running for 1.538)
+===2020-04-03 16:49:43.760 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+===2020-04-03 16:49:43.806 ERROR com.fh.postg.controller.UserController Line:34  - Hello world
+===2020-04-03 16:49:43.809 DEBUG org.mybatis.spring.SqlSessionUtils Line:49  - Creating a new SqlSession
+===2020-04-03 16:49:43.811 DEBUG org.mybatis.spring.SqlSessionUtils Line:49  - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@dc67dee] was not registered for synchronization because synchronization is not active
+===2020-04-03 16:49:43.815 DEBUG com.zaxxer.hikari.HikariConfig Line:1020 - HikariPool-1 - configuration:
+===2020-04-03 16:49:43.816 DEBUG com.zaxxer.hikari.HikariConfig Line:1052 - allowPoolSuspension.............false
+===2020-04-03 16:49:43.816 DEBUG com.zaxxer.hikari.HikariConfig Line:1052 - autoCommit......................true
+===2020-04-03 16:49:43.816 DEBUG com.zaxxer.hikari.HikariConfig Line:1052 - catalog.........................none
+===2020-04-03 16:49:43.817 DEBUG com.zaxxer.hikari.HikariConfig Line:1052 - connectionInitSql...............none
+===2020-04-03 16:49:43.817 DEBUG com.zaxxer.hikari.HikariConfig Line:1052 - connectionTestQuery.............none
+===2020-04-03 16:49:43.817 DEBUG com.zaxxer.hikari.HikariConfig Line:1052 - connectionTimeout...............30000
+===2020-04-03 16:49:43.817 DEBUG com.zaxxer.hikari.HikariConfig Line:1052 - dataSource......................none
+===2020-04-03 16:49:43.817 DEBUG com.zaxxer.hikari.HikariConfig Line:1052 - dataSourceClassName.............none
+===2020-04-03 16:49:43.817 DEBUG com.zaxxer.hikari.HikariConfig Line:1052 - dataSourceJNDI..................none
+===2020-04-03 16:49:43.818 DEBUG com.zaxxer.hikari.HikariConfig Line:1052 - dataSourceProperties............{password=<masked>}
+===2020-04-03 16:49:43.818 DEBUG com.zaxxer.hikari.HikariConfig Line:1052 - driverClassName................."org.postgresql.Driver"
+===2020-04-03 16:49:43.818 DEBUG com.zaxxer.hikari.HikariConfig Line:1052 - healthCheckProperties...........{}
+===2020-04-03 16:49:43.818 DEBUG com.zaxxer.hikari.HikariConfig Line:1052 - healthCheckRegistry.............none
+===2020-04-03 16:49:43.818 DEBUG com.zaxxer.hikari.HikariConfig Line:1052 - idleTimeout.....................600000
+===2020-04-03 16:49:43.818 DEBUG com.zaxxer.hikari.HikariConfig Line:1052 - initializationFailTimeout.......1
+===2020-04-03 16:49:43.818 DEBUG com.zaxxer.hikari.HikariConfig Line:1052 - isolateInternalQueries..........false
+===2020-04-03 16:49:43.819 DEBUG com.zaxxer.hikari.HikariConfig Line:1052 - jdbcUrl.........................jdbc:postgresql://192.168.4.35:5432/postgres
+===2020-04-03 16:49:43.819 DEBUG com.zaxxer.hikari.HikariConfig Line:1052 - leakDetectionThreshold..........0
+===2020-04-03 16:49:43.819 DEBUG com.zaxxer.hikari.HikariConfig Line:1052 - maxLifetime.....................1800000
+===2020-04-03 16:49:43.819 DEBUG com.zaxxer.hikari.HikariConfig Line:1052 - maximumPoolSize.................10
+===2020-04-03 16:49:43.819 DEBUG com.zaxxer.hikari.HikariConfig Line:1052 - metricRegistry..................none
+===2020-04-03 16:49:43.819 DEBUG com.zaxxer.hikari.HikariConfig Line:1052 - metricsTrackerFactory...........none
+===2020-04-03 16:49:43.819 DEBUG com.zaxxer.hikari.HikariConfig Line:1052 - minimumIdle.....................10
+===2020-04-03 16:49:43.820 DEBUG com.zaxxer.hikari.HikariConfig Line:1052 - password........................<masked>
+===2020-04-03 16:49:43.820 DEBUG com.zaxxer.hikari.HikariConfig Line:1052 - poolName........................"HikariPool-1"
+===2020-04-03 16:49:43.820 DEBUG com.zaxxer.hikari.HikariConfig Line:1052 - readOnly........................false
+===2020-04-03 16:49:43.820 DEBUG com.zaxxer.hikari.HikariConfig Line:1052 - registerMbeans..................false
+===2020-04-03 16:49:43.820 DEBUG com.zaxxer.hikari.HikariConfig Line:1052 - scheduledExecutor...............none
+===2020-04-03 16:49:43.820 DEBUG com.zaxxer.hikari.HikariConfig Line:1052 - schema..........................none
+===2020-04-03 16:49:43.821 DEBUG com.zaxxer.hikari.HikariConfig Line:1052 - threadFactory...................internal
+===2020-04-03 16:49:43.821 DEBUG com.zaxxer.hikari.HikariConfig Line:1052 - transactionIsolation............default
+===2020-04-03 16:49:43.821 DEBUG com.zaxxer.hikari.HikariConfig Line:1052 - username........................"postgres"
+===2020-04-03 16:49:43.821 DEBUG com.zaxxer.hikari.HikariConfig Line:1052 - validationTimeout...............5000
+===2020-04-03 16:49:43.821 INFO  com.zaxxer.hikari.HikariDataSource Line:110 - HikariPool-1 - Starting...
+===2020-04-03 16:49:43.865 DEBUG com.zaxxer.hikari.pool.HikariPool Line:558 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@5cb09709
+===2020-04-03 16:49:43.866 INFO  com.zaxxer.hikari.HikariDataSource Line:123 - HikariPool-1 - Start completed.
+===2020-04-03 16:49:43.867 DEBUG org.mybatis.spring.transaction.SpringManagedTransaction Line:49  - JDBC Connection [HikariProxyConnection@1327494850 wrapping org.postgresql.jdbc.PgConnection@5cb09709] will not be managed by Spring
+===2020-04-03 16:49:43.871 DEBUG com.fh.postg.mapper.UserMapper.selectId Line:143 - ==>  Preparing: select * from table_one where id=? 
+===2020-04-03 16:49:43.877 DEBUG com.fh.postg.mapper.UserMapper.selectId Line:143 - ==> Parameters: 1(Integer)
+===2020-04-03 16:49:43.886 DEBUG com.fh.postg.mapper.UserMapper.selectId Line:143 - <==      Total: 1
+===2020-04-03 16:49:43.889 DEBUG org.mybatis.spring.SqlSessionUtils Line:49  - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@dc67dee]
+===2020-04-03 16:49:43.966 DEBUG com.zaxxer.hikari.pool.HikariPool Line:417 - HikariPool-1 - Pool stats (total=1, active=0, idle=1, waiting=0)
+===2020-04-03 16:49:43.973 DEBUG com.zaxxer.hikari.pool.HikariPool Line:722 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@1d63f728
+===2020-04-03 16:49:43.980 DEBUG com.zaxxer.hikari.pool.HikariPool Line:722 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@13a40af4
+===2020-04-03 16:49:43.986 DEBUG com.zaxxer.hikari.pool.HikariPool Line:722 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@179b9c58
+===2020-04-03 16:49:43.991 DEBUG com.zaxxer.hikari.pool.HikariPool Line:722 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@529900cf
+===2020-04-03 16:49:43.997 DEBUG com.zaxxer.hikari.pool.HikariPool Line:722 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@50417703
+===2020-04-03 16:49:44.002 DEBUG com.zaxxer.hikari.pool.HikariPool Line:722 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@63013455
+===2020-04-03 16:49:44.008 DEBUG com.zaxxer.hikari.pool.HikariPool Line:722 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@28331d31
+===2020-04-03 16:49:44.014 DEBUG com.zaxxer.hikari.pool.HikariPool Line:722 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@32b6ff80
+===2020-04-03 16:49:44.019 DEBUG com.zaxxer.hikari.pool.HikariPool Line:722 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@69946fba
+===2020-04-03 16:49:44.020 DEBUG com.zaxxer.hikari.pool.HikariPool Line:417 - HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+===2020-04-03 16:49:49.955 ERROR com.fh.postg.controller.UserController Line:34  - Hello world
+===2020-04-03 16:49:49.955 DEBUG org.mybatis.spring.SqlSessionUtils Line:49  - Creating a new SqlSession
+===2020-04-03 16:49:49.956 DEBUG org.mybatis.spring.SqlSessionUtils Line:49  - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1e78e4da] was not registered for synchronization because synchronization is not active
+===2020-04-03 16:49:49.957 DEBUG org.mybatis.spring.transaction.SpringManagedTransaction Line:49  - JDBC Connection [HikariProxyConnection@280959333 wrapping org.postgresql.jdbc.PgConnection@5cb09709] will not be managed by Spring
+===2020-04-03 16:49:49.957 DEBUG com.fh.postg.mapper.UserMapper.selectId Line:143 - ==>  Preparing: select * from table_one where id=? 
+===2020-04-03 16:49:49.958 DEBUG com.fh.postg.mapper.UserMapper.selectId Line:143 - ==> Parameters: 1(Integer)
+===2020-04-03 16:49:49.959 DEBUG com.fh.postg.mapper.UserMapper.selectId Line:143 - <==      Total: 1
+===2020-04-03 16:49:49.959 DEBUG org.mybatis.spring.SqlSessionUtils Line:49  - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1e78e4da]
+===2020-04-03 16:50:13.968 DEBUG com.zaxxer.hikari.pool.HikariPool Line:417 - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+===2020-04-03 16:50:43.971 DEBUG com.zaxxer.hikari.pool.HikariPool Line:417 - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)

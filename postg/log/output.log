@@ -1,0 +1,68 @@
+15:28:40.683 [main] INFO  com.fh.postg.PostgApplication - Starting PostgApplication on DESKTOP-190729 with PID 10468 (E:\文档下载\spring-boot-demo-master\spring-boot-demo-master\postg\target\classes started by Administrator in E:\文档下载\spring-boot-demo-master\spring-boot-demo-master\postg)
+15:28:40.685 [main] INFO  com.fh.postg.PostgApplication - No active profile set, falling back to default profiles: default
+15:28:41.422 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+15:28:41.426 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+15:28:41.427 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+15:28:41.427 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+15:28:41.480 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+15:28:41.480 [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 770 ms
+15:28:41.655 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+15:28:41.750 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+15:28:41.761 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+15:28:41.762 [main] INFO  com.fh.postg.PostgApplication - Started PostgApplication in 1.256 seconds (JVM running for 1.714)
+15:28:44.967 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+15:28:44.967 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+15:28:44.970 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+15:28:45.015 [http-nio-8080-exec-1] INFO  c.fh.postg.controller.UserController - Hello world
+15:28:45.023 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+15:28:45.066 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+15:46:57.716 [main] INFO  com.fh.postg.PostgApplication - Starting PostgApplication on DESKTOP-190729 with PID 12772 (E:\文档下载\spring-boot-demo-master\spring-boot-demo-master\postg\target\classes started by Administrator in E:\文档下载\spring-boot-demo-master\spring-boot-demo-master\postg)
+15:46:57.719 [main] INFO  com.fh.postg.PostgApplication - No active profile set, falling back to default profiles: default
+15:46:58.408 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+15:46:58.414 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+15:46:58.414 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+15:46:58.414 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+15:46:58.469 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+15:46:58.469 [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 720 ms
+15:46:58.680 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+15:46:58.801 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+15:46:58.822 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+15:46:58.823 [main] INFO  com.fh.postg.PostgApplication - Started PostgApplication in 1.351 seconds (JVM running for 1.925)
+15:47:06.921 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+15:47:06.921 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+15:47:06.925 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+15:47:06.944 [http-nio-8080-exec-1] INFO  c.fh.postg.controller.UserController - Hello world
+15:47:20.142 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+15:47:20.149 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+15:47:20.194 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+16:11:37.263 [main] INFO  com.fh.postg.PostgApplication - Starting PostgApplication on DESKTOP-190729 with PID 13568 (E:\文档下载\spring-boot-demo-master\spring-boot-demo-master\postg\target\classes started by Administrator in E:\文档下载\spring-boot-demo-master\spring-boot-demo-master\postg)
+16:11:37.265 [main] INFO  com.fh.postg.PostgApplication - No active profile set, falling back to default profiles: default
+16:11:37.906 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+16:11:37.911 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+16:11:37.912 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+16:11:37.912 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+16:11:37.970 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+16:11:37.971 [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 677 ms
+16:11:38.183 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+16:11:38.298 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+16:11:38.316 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+16:11:38.319 [main] INFO  com.fh.postg.PostgApplication - Started PostgApplication in 1.293 seconds (JVM running for 1.788)
+16:11:45.678 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+16:11:45.678 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+16:11:45.682 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+16:11:45.699 [http-nio-8080-exec-2] INFO  c.fh.postg.controller.UserController - Hello world
+16:14:18.846 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+16:14:18.852 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+16:14:18.900 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+16:28:29.150 [main] INFO  com.fh.postg.PostgApplication - Starting PostgApplication on DESKTOP-190729 with PID 18772 (E:\文档下载\spring-boot-demo-master\spring-boot-demo-master\postg\target\classes started by Administrator in E:\文档下载\spring-boot-demo-master\spring-boot-demo-master\postg)
+16:28:29.152 [main] INFO  com.fh.postg.PostgApplication - No active profile set, falling back to default profiles: default
+16:28:29.746 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+16:28:29.750 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+16:28:29.751 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+16:28:29.751 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+16:28:29.804 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+16:28:29.804 [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 629 ms
+16:28:29.970 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+16:28:30.064 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+16:28:30.076 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+16:28:30.077 [main] INFO  com.fh.postg.PostgApplication - Started PostgApplication in 1.093 seconds (JVM running for 1.506)
